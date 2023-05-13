@@ -1,0 +1,279 @@
+.row {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+header .header-container {
+  background-color: rgb(20, 76, 243);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .header-container .img-part {
+  margin-top: 30px;
+  border-bottom: 5px solid white;
+  width: 88%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header .header-container .img-part img {
+  border-radius: 50%;
+  width: 30%;
+  background-color: white;
+  z-index: 3;
+}
+@media (max-width: 600px) {
+  header .header-container .img-part img {
+    width: 100%;
+  }
+}
+header .text-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+header .text-part h1,
+header .text-part p,
+header .text-part h3 {
+  text-align: center;
+}
+header .text-part h1 {
+  font-size: 30px;
+}
+header .text-part h3 {
+  font-size: 20px;
+}
+header .text-part p {
+  font-size: 14px;
+  color: grey;
+}
+header .text-part a {
+  border: none;
+  background-color: white;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: green;
+  font-weight: 600;
+  border: 1px solid green;
+  text-decoration: none;
+}
+header .text-part a:hover {
+  background-color: rgb(65, 212, 65);
+  color: white;
+}
+
+.information {
+  padding: 5vh 0;
+  width: 100%;
+  height: auto;
+  font-family: "Nunito";
+}
+.information .row .info-item {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information .row .info-item .head-main {
+  padding: 1vh 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.information .row .info-item .head-main .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information .row .info-item .head-main .icon i {
+  font-size: 18px;
+  color: black;
+}
+.information .row .info-item .head-main .head-text {
+  padding-left: 1vh;
+}
+.information .row .info-item .head-main .head-text p {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.information .row .info-item .body-main {
+  width: 93%;
+  padding: 2vh 0;
+  color: #000;
+}
+.information .row .info-item .body-main a {
+  font-size: 15px;
+  text-decoration: none;
+}
+.information .row .info-item .body-main .sub-title {
+  color: #0f0f0f;
+  padding: 0;
+  margin: 0;
+}
+.information .row .info-item .body-main .facilities-icons-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8daac8;
+  padding: 2vh 0;
+  border-radius: 10px;
+}
+.information .row .info-item .body-main .facilities-icons-main .item {
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information .row .info-item .body-main .facilities-icons-main .item i {
+  font-size: 25px;
+  color: #0e5797;
+}
+.information .row .info-item .body-main .facilities-icons-main .item p {
+  padding: 1vh 0;
+  margin: 0;
+  color: black !important;
+  font-size: 15px;
+}
+.information .row .info-item .body-main .social-icons-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 0;
+  border-radius: 10px;
+}
+.information .row .info-item .body-main .social-icons-main .item {
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information .row .info-item .body-main .social-icons-main .item i {
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+.information .row .info-item .body-main .social-icons-main .item .facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #2B8A9A !important;
+}
+.information .row .info-item .body-main .social-icons-main .item .instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #91769E !important;
+}
+.information .row .info-item .body-main .social-icons-main .item .tiktok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #5b8d82 !important;
+}
+.information .row .info-item .body-main .social-icons-main .item p {
+  padding: 1vh 0;
+  margin: 0;
+  color: black !important;
+  font-size: 15px;
+}
+
+.location-body {
+  padding-bottom: 25px !important;
+  border-bottom: 1px solid rgb(109, 107, 107);
+}
+
+.head-part {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.head-part .icon {
+  margin-right: 10px;
+}
+.head-part .opening-time {
+  margin: 0;
+  font-size: 20px;
+}
+
+.day-time {
+  width: 100%;
+}
+.day-time .mycard {
+  width: 100%;
+  border-bottom: 1px dashed gray;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.day-time .mycard .day {
+  width: 20%;
+  margin-right: 20px;
+}
+.day-time .mycard .time {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  letter-spacing: 1px;
+}
+.day-time .last {
+  border: none;
+}
+
+.contact-card {
+  margin-bottom: 10px;
+}
+.contact-card .head-text {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.contact-card .body-text {
+  text-decoration: none;
+}
+
+.social-media {
+  padding-left: 20px;
+}
+
+.bottom-part {
+  padding-top: 10px;
+  border-top: 1px solid gray;
+}
+.bottom-part p {
+  margin-left: 10px;
+}
+.bottom-part p a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
